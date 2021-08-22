@@ -1,0 +1,6 @@
+syntax = "proto2";
+package pb;
+
+message Hello {
+    required int32 alive = 1;
+}

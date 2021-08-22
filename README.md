@@ -21,3 +21,15 @@ This repo builds a tachometer based on a ESP8266
   - https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/
 - Software restart: https://techtutorialsx.com/2017/12/29/esp8266-arduino-software-restart/
   - ESP.restart();
+
+## Protobuffers
+- https://medium.com/grpc/efficient-iot-with-the-esp8266-protocol-buffers-grafana-go-and-kubernetes-a2ae214dbd29
+- https://techtutorialsx.com/2018/10/19/esp32-esp8266-arduino-protocol-buffers/
+
+- https://github.com/protocolbuffers/protobuf
+- https://developers.google.com/protocol-buffers
+  - https://developers.google.com/protocol-buffers/docs/overview
+- https://github.com/nanopb/nanopb/
+
+DOING:
+- https://developers.google.com/
