@@ -1,0 +1,38 @@
+# Compile protocol buffers
+
+## Set up environment
+
+REF: https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
+- protobuf version: 3.17.3
+- download .tar, extract and run the following commands within the extracted directory
+
+```
+sudo apt update
+sudo apt-get install -y autoconf automake libtool curl make g++ unzip
+./configure
+make
+make check
+sudo make install
+sudo ldconfig
+```sh
+
+REF: https://github.com/nanopb/nanopb
+
+REF: https://github.com/vladimirvivien/iot-dev/tree/master/esp8266/esp8266-dht11-temp#install-and-configure-nanopb
+
+```
+sudo apt update
+sudo apt install -y python3-pip python3
+pip3 install protobuf grpcio-tools
+```sh
+
+pip install protobuf grpcio-tools
+
+## Compile .proto files
+
+Within the directory containing the .proto file, run the following code
+
+```
+protoc --plugin=protoc-gen-nanopb=\
+    ~/nanopb/generator/protoc-gen-nanopb --nanopb_out=. hello.proto
+```sh
