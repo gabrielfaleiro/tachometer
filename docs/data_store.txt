@@ -1,0 +1,18 @@
+
+# Data Match between interfaces
+
+Max size: 4096 bytes
+
+| Init Byte     | Size       | DataStore Variable    |
+|-              | -          |-                      |
+| 0             | 32         | sta_ssid              |
+| 32            | 64         | sta_pass              |
+| 96            | 32         | ap_ssid               |
+| 128           | 64         | ap_pass               |
+| 192           | 1          | sta_dhcp_enable       |
+| 193           | 4          | sta_local_ip          |
+| 197           | 4          | sta_gateway           |
+| 201           | 4          | sta_subnet            |
+| 205           | 4          | ap_local_ip           |
+| 209           | 4          | ap_gateway            |
+| 213           | 4          | ap_subnet             |
