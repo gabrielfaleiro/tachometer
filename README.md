@@ -7,6 +7,7 @@ This repo builds a tachometer based on a ESP8266
 - Platform IO Unit Testing: https://docs.platformio.org/en/latest/plus/unit-testing.html
 
 ## ESP8266
+- Tutorials: https://randomnerdtutorials.com/projects-esp8266/
 - ESP8266 Arduino reference: https://arduino-esp8266.readthedocs.io/en/latest/
 - ESP8266 datasheet: https://www.espressif.com/sites/default/files/documentation/esp8266-technical_reference_en.pdf
 - Pinout: https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
